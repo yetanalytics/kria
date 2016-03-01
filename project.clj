@@ -1,4 +1,4 @@
-(defproject com.yetanalytics/kria "0.2.0-SNAPSHOT"
+(defproject com.yetanalytics/kria "0.2.0"
   :description "A Clojure client library for Riak 2.1.0. Uses NIO.2."
   :url "https://github.com/bluemont/kria"
   :license {:name "Eclipse Public License"

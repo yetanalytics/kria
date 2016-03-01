@@ -3,12 +3,17 @@
 An asynchronous Clojure client for Riak 2.0 built on top of the [Riak Protocol
 Buffer interface][Riak-PB] using Java 7's NIO.2.
 
-Kria only only has four dependencies:
+This fork of [kria](https://github.com/bluemont/kria) has some breaking API
+changes, namely it uses [clojure-protobuf](https://github.com/ninjudd/clojure-protobuf)
+and requires the user to convert all byte strings before passing them.
+
+Kria only only has five dependencies:
 
 * Java 7 or later (for NIO.2)
 * Clojure 1.6
 * Protocol Buffers
 * [Basho's Riak Protocol Buffer Files][riak-pb-maven]
+* [clojure-protobuf](https://github.com/ninjudd/clojure-protobuf)
 
 [riak-pb-maven]: https://search.maven.org/#search%7Cga%7C1%7Ca%3A%22riak-pb%22
 
